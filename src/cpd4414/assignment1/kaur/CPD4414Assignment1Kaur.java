@@ -17,6 +17,9 @@ public class CPD4414Assignment1Kaur {
     public static void main(String[] args) {
         // TODO code application logic here
         
+      String aa = new String();
+      aa = stringPower("",2);
+        System.out.println("aa is"+aa);
         
         
     }

@@ -45,19 +45,30 @@ public class CPD4414Assignment1KaurTest {
     /**
      * Test of stringPower method, of class CPD4414Assignment1Kaur.
      */
+  
     @Test
-    public void testStringPower() {
-        System.out.println("stringPower");
-        String st = "";
+      public void testLessThanOneShouldReturnNull(){
+          System.out.println("testLessThanOneShouldReturnNull");
+            String st = "";
         int i = 0;
-        String expResult = "";
+        String expResult = null;
         String result = CPD4414Assignment1Kaur.stringPower(st, i);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-    
-    }
-    @Test
-    public void testEmptyStringShouldReturnEmptyString(){
         
     }
-}
+    
+      @Test
+  
+    public void testStringAndOneShouldReturnString(){
+          System.out.println("testStringAndOneShouldReturnString");
+             String st = "hello";
+        int i = 1;
+        String expResult = "hello";
+        String result = CPD4414Assignment1Kaur.stringPower(st, i);
+        assertEquals(expResult, result);
+        
+    }
+        
+    }
+
+

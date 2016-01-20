@@ -25,7 +25,12 @@ public class CPD4414Assignment1Kaur {
     }
     
     public static String  stringPower (String st,int i){
-        return st;
+        if (st.length() <1) {
+                return null;
+        } 
+        else{
+            return st;
+        }
     }
     
     

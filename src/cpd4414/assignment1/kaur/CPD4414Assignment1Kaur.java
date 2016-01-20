@@ -25,17 +25,33 @@ public class CPD4414Assignment1Kaur {
     }
     
     public static String  stringPower (String st,int i){
-        if(i == 2)
-        {
-            return "bobbob";
-        }
-        if (st.length() <1) {
-                return null;
-        } 
-        else{
-            return st;
+        
+        
+        String temp="";
+        
+        if(i<1)
+            temp=null;
+        
+        else 
+            for (int p=0 ;p<i ;p++)
+                temp+=st;
+        
+        return temp;
+        
+//        
+//                
+//                
+//            
+//        
+//        if(i == 2)
+//        {
+//            return "bobbob";
+//        }
+//        if (st.length() <1) {
+//                return null;
+//        } 
+//        else{
+//            return st;
         }
     }
     
-    
-}

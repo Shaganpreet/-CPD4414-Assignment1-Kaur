@@ -73,7 +73,7 @@ public class CPD4414Assignment1KaurTest {
     public void testStringAndTwoShouldReturnStringDoubled()
     {
         System.out.println("testStringAndTwoShouldReturnStringDoubled");
-        String st = "bobbob";
+        String st = "bob";
         int i = 2;
         String result = "bobbob";
         String result1 = CPD4414Assignment1Kaur.stringPower(st,i);
@@ -85,14 +85,14 @@ public class CPD4414Assignment1KaurTest {
     public void testEmptyStringShouldReturnEmptyString()
     {
         System.out.println("testEmptyStringShouldReturnEmptyString");
-        String st = "bobob";
+        String st = "";
         int i = 2;
-        String result = "bobbob";
+        String result = "";
         String result1 = CPD4414Assignment1Kaur.stringPower(st,i);
         assertEquals(result,result1);
         
     }
-    
+   
     
     
     }

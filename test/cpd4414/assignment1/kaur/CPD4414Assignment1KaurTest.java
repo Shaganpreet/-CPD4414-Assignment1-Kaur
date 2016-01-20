@@ -80,6 +80,21 @@ public class CPD4414Assignment1KaurTest {
         assertEquals(result,result1);
         
     }
+    
+       @Test
+    public void testEmptyStringShouldReturnEmptyString()
+    {
+        System.out.println("testEmptyStringShouldReturnEmptyString");
+        String st = "bobob";
+        int i = 2;
+        String result = "bobbob";
+        String result1 = CPD4414Assignment1Kaur.stringPower(st,i);
+        assertEquals(result,result1);
+        
+    }
+    
+    
+    
     }
 
 

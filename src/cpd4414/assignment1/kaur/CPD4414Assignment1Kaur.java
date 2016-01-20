@@ -16,6 +16,14 @@ public class CPD4414Assignment1Kaur {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        
     }
+    
+    public static String  stringPower (String st,int i){
+        return st;
+    }
+    
     
 }

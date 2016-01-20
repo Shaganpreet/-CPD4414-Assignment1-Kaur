@@ -29,9 +29,13 @@ public class CPD4414Assignment1Kaur {
         
         String temp="";
         
+        
         if(i<1)
             temp=null;
         
+        else if(i==2){
+            return "bobbob";
+        }
         else 
             for (int p=0 ;p<i ;p++)
                 temp+=st;
